@@ -16,9 +16,10 @@ public class QuotaCalculator {
         int sales = scanner.nextInt();
         scanner.close();
 
-        if (sales >= 10) {
+        if (sales >= 10)
             System.out.println("Congrats!! You made the cut this week!!");
-        } else {
+
+        else {
             int balance = quota - sales;
             System.out.println("You have a balance of " + balance + " sales this week!! Work harder!!");
         }
