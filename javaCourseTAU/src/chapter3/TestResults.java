@@ -2,8 +2,6 @@ package chapter3;
 
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner14;
-
 public class TestResults {
     public static void main(String[] args) {
         /*
@@ -14,6 +12,7 @@ public class TestResults {
         System.out.println("What is your test score? :");
         Scanner scanner = new Scanner(System.in);
         double testScore = scanner.nextDouble();
+        scanner.close();
 
         // Determine Grade
         char grade;

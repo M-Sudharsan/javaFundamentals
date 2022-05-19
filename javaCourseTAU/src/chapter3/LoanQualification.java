@@ -19,6 +19,7 @@ public class LoanQualification {
 
         System.out.println("How many years have you been working in the current organization? :");
         double workingYears = scanner.nextDouble();
+        scanner.close();
 
         if (salary >= requiredSalary) {
             if (workingYears >= requiredYears)
