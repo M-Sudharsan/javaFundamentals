@@ -1,8 +1,5 @@
-package chapter5_Methods;
 
 import java.util.Scanner;
-
-import chapter3_ConditionalStatements.SalaryCalculator;
 
 public class instantCreditCheck {
     /*

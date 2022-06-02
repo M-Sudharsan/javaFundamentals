@@ -1,0 +1,8 @@
+{
+  "java.project.sourcePaths": [
+    "javaCourseTAU/src/chapter5_Methods",
+    "javaCourseTAU/src/chapter5_Method"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"]
+}

@@ -1,4 +1,3 @@
-package chapter5_Methods;
 
 import java.util.Scanner;
 
